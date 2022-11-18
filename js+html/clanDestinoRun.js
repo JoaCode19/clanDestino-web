@@ -1,11 +1,5 @@
-/**Bienvenido a la experiencia clanDestino: esta es una webapp pensada para englobar el entretenimiento urbano latinoamericano no regulado.
- 
-
-Nota de versión: se puede trabajar desde 0 comentando el scrip que tiene como src= cDDataEntry.js, descomentando la funcion generate ID+randomIndex en este script  y comentando las dos lineas de codigo de inicio y registro que tienen (N)
-
-Last Update: Libreria Sweet Alert, Promesas+fetch(archivo cDDataEntry.js y evento patrocinado), modulo My Requests flujo para aceptarlas, validacion para solo requerilas 1 vez y no poder requerir las propias y push a evento.users, limpieza automatica de eventos post finalizacion , id autogenerado para los eventos para mejorar el flujo y mejoras visuales (footer,grilla para mostrar eventos)
-
- Escalabilidad post curso: desarrollo de notificaciones para usuarios (solicitudes aceptadas o rechazadas, nuevo evento en tu ultima busqueda ), valoraciones de usuario como invitado y owner, propinas con la solicitud (de la cual un feed puede quedar para la web haciendola sustentable), manejo de fecha y horario donde se libera la direccion del evento
+/**
+ BIENVENIDO A CLAN DESTINO
  */
 
 /**-----------------------------------FUNCIONES -------------------------------------- */
