@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Mis Styles-->
+  <link href="../css/main.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clanDestino</title>
+</head>
+
+<body id="bod">
+
+
+  <div class="login-box" id="contenedor">
+
+    <!-- LOGIN -->
+    <img class="avatar" src="../img&audio/LogoclanDestino.png" alt="logo de clanDestino">
+    <h1 id="titlecontenedor">Login Here</h1>
+
+    <form id="formulario- login">
+      <!-- username -->
+      <label for="username">Username</label>
+      <input type="text" placeholder="Enter Username" id="user" autocomplete="off">
+      <!-- password-->
+      <label for="password">Password</label>
+      <input type="password" placeholder="Enter password" id="pass" autocomplete="off">
+
+      <input type="submit" value="Log In" id="btnlog">
+
+      <a href="#" id="btnreg">I´m a new user</a><br>
+
+      <a href="#">Login with Google</a>
+
+  </div>
+
+  <!-- MENU -->
+  <div class="icono-menu oculto" id="contenedor2">
+    <img src="../img&audio/open-menu.png" id="icono-menu">
+  </div>
+
+  <div class="cont-menu active oculto" id="menu">
+    <ul>
+      <li><a href="#" class="a" id="a1">Create Event</a></li>
+      <li><a href="#" class="a" id="a2">Serch Event</a></li>
+      <li><a href="#" class="a" id="a3">My Events</a></li>
+      <li><a href="#" class="a" id="a4">My Requests</a></li>
+      <li><a href="#" class="a" id="a5">Quit</a></li>
+
+    </ul>
+  </div>
+
+  <!-- GRILLA -->
+  <div id="grilla"></div>
+
+  <!-- PIE DE PÁGINA -->
+
+  <!-- Librerias -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.4/build/global/luxon.min.js"></script>
+
+
+  <!--Mis scipts-->
+  <script src="cDClaseEvents.js" defer></script>
+  <script src="cDClaseUsers.js" defer></script>
+  <script src="cDDataEntry.js" defer></script>
+  <script src="clanDestinoRun.js" defer></script>
+
+
+  <!--Audio-->
+  <audio id="audio" autoplay>
+    <source src="../img&audio/Manu-Chao-Clandestino-_Official-Audio_.mp3" type="audio/mpeg">
+    <source src="../img&audio/Manu-Chao-Clandestino-_Official-Audio_.ogg" type="audio/ogg">
+  </audio>
+
+
+  <div id="foot">
+    <footer class="footer" id="foot">
+      <p><strong>Created by Joa ®</strong></p>
+    </footer>
+  </div>
+
+
+</body>
+
+
+</html>
